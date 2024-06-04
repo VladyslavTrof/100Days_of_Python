@@ -1,5 +1,3 @@
-################### Scope ####################
-
 enemies = 1
 
 def increase_enemies():
@@ -30,7 +28,7 @@ def game():
 
 print(player_health)
 
-# There is no Block Scope
+
 
 game_level = 3
 
@@ -42,8 +40,6 @@ def create_enemy():
     print(new_enemy)
 
 
-# Modifying Global Scope
-
 enemies = 1
 
 def increase_enemies():
@@ -53,7 +49,7 @@ def increase_enemies():
 enemies = increase_enemies()
 print(f"enemies outside function: {enemies}")
 
-#Global Constants
+
 
 PI = 3.14159
 URL = "https://www.google.com"
